@@ -85,3 +85,5 @@ public class Main {
 }
 ```
 
+Kita melakukan **set** dari setiap atribute dan memanggilnya untuk mengembalikan nilai yang telah kita **set** dengan memanggil **get**. Maka Output dari program di atas akan menjadi seperti berikut,</br>
+![Code](https://raw.githubusercontent.com/AgufSamudra/Praktikum2-OOP/main/img/Screenshot%20(8).png)
