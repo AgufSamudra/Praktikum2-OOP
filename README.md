@@ -53,3 +53,35 @@ Contoh *Getter:*</br>
         return this.jenisKelamin;
     }
 ```
+
+## Step 3
+
+Setelah Class Person di buat maka kita bisa menaruh/menetapkan nilai dari atribut Person di Main.java. Kita tidak memanggil atribut tersebut secara langsung akan tetapi kita akan memanggil fungsi *Setter* untuk memberikan nilai dan fungsi *Getter* untuk mengembalikan nilai. Maka Full Code Main.java akan menjadi seperti berikut.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Person person = new Person();
+        Person person2 = new Person();
+
+        // ANTON
+        person.setName("Anton");
+        person.setJenisKelamin('L');
+        person.setUmur(20);
+        System.out.println("Nama: " + person.getName());
+        System.out.println("Jenis Kelamin: " + person.getJenisKelamin());
+        System.out.println("Umur: " + person.getUmur());
+
+        System.out.println();
+
+        // RIKO
+        person2.setName("Riko");
+        person2.setJenisKelamin('L');
+        person2.setUmur(25);
+        System.out.println("Nama: " + person2.getName());
+        System.out.println("Jenis Kelamin: " + person2.getJenisKelamin());
+        System.out.println("Umur: " + person2.getUmur());
+    }
+}
+```
+
