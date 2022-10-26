@@ -26,7 +26,7 @@ Kita membuat ketiga atribute tersebut menjadi private, dan ketika kita mengubahn
 
 Contoh *Setter:*</br>
 ```java
-public void setName(String name){
+    public void setName(String name){
         this.name = name;
     }
 
@@ -41,7 +41,7 @@ public void setName(String name){
 
 Contoh *Getter:*</br>
 ```java
-public String getName(){
+    public String getName(){
         return this.name;
     }
 
