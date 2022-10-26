@@ -85,5 +85,8 @@ public class Main {
 }
 ```
 
+## Step 4
 Kita melakukan **set** dari setiap atribute dan memanggilnya untuk mengembalikan nilai yang telah kita **set** dengan memanggil **get**. Maka Output dari program di atas akan menjadi seperti berikut,</br>
 ![Code](https://raw.githubusercontent.com/AgufSamudra/Praktikum2-OOP/main/img/Screenshot%20(8).png)
+
+Di atas adalah hasil dari penerapan encapsulation setter dan getter, Semoga bermanfaat untuk teman-teman semua. Full code bisa langsung di cek di folder ***src***, Sekian dari saya Terima Kasih.
