@@ -25,7 +25,8 @@ maka atribute itu tidak bisa di akses di luar Class Person. Sehingga kita membua
 - Getter: Setelah nilai di isi, maka nilai tersebut akan kita panggil dengan Getter. Getter akan mengembalikan nilai yang telah di set di Setter.
 
 Contoh *Setter:*</br>
-`public void setName(String name){
+`
+public void setName(String name){
         this.name = name;
     }
 
