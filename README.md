@@ -14,9 +14,11 @@ Saya membuat file java baru/class baru bernama Person, kemudian Person akan di i
 - Umur
 
 Kita membuat ketiga atribute tersebut menjadi private, dan ketika kita mengubahnya menjadi private 
-`private String name;
-    private char jenisKelamin;
-    private int umur;`
+`
+private String name;
+private char jenisKelamin;
+private int umur;
+`
 maka atribute itu tidak bisa di akses di luar Class Person. Sehingga kita membuat seperti jembatan penghubungnya yaitu, Setter dan Getter.
 
 - Setter: Penghubung yang berfungsi untuk mengisi sebuah nilai terhadap atribute private tersebut.
@@ -33,4 +35,5 @@ Contoh *Setter:*</br>
 
     public void setJenisKelamin(char jenisKelamin){
         this.jenisKelamin = jenisKelamin;
-    }`
+    }
+`
